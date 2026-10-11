@@ -1,0 +1,32 @@
+{
+  "lsp": {
+    "rust-analyzer": {
+      "initialization_options": {
+        "check": {
+          "command": "clippy"
+        },
+        "cargo": {
+          "allFeatures": true,
+          "buildScripts": {
+            "enable": true
+          }
+        },
+        "procMacro": {
+          "enable": true
+        },
+        "inlayHints": {
+          "typeHints": {
+            "enable": true
+          },
+          "parameterHints": {
+            "enable": true
+          },
+          "chainingHints": {
+            "enable": true
+          }
+        }
+      }
+    }
+  },
+  "format_on_save": "on"
+}
